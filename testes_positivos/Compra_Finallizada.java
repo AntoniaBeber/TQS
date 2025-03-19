@@ -30,7 +30,7 @@ public class Compra_Finallizada {
         driver.findElement(By.className("shopping_cart_link")).click();
         driver.findElement(By.id("checkout")).click();
         
-        driver.findElement(By.id("first-name")).sendKeys("Gabriel");
+        driver.findElement(By.id("first-name")).sendKeys("pessoa1");
         driver.findElement(By.id("last-name")).sendKeys("Testador");
         driver.findElement(By.id("postal-code")).sendKeys("12345");
         driver.findElement(By.id("continue")).click();
